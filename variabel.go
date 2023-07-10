@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 
@@ -13,6 +15,8 @@ func main() {
 	fmt.Println(fullname)
 
 	name := new(string)
+	*name = "Martin Rivaldo Manurung 02-09-18"
+	// address to name (* pointer to name)
 	fmt.Println(*name)
 
 }
