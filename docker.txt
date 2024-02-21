@@ -1,0 +1,8 @@
+1. docker pull postgresql
+2. docker run --name postgres -p 5432:5432 -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -d postgres                          ─╯
+3. docker ps
+4. docker images
+5. docker exec --it postgres psql -U postgres
+
+#cek logging docker
+6. docker logs postgres 
